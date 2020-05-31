@@ -1,0 +1,58 @@
+{
+  "name": "part1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --require @babel/register --colors \"test/**/*.spec.js\"",
+    "test:e2e": "cypress run --browser chrome",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^5.2.7",
+    "chi": "0.0.10",
+    "core-js": "^3.6.5",
+    "cypress": "^4.7.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "mocha": "^6.2.3",
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.30"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.10.1",
+    "@vue/cli-plugin-babel": "^4.4.1",
+    "@vue/cli-plugin-e2e-cypress": "^4.4.1",
+    "@vue/cli-plugin-eslint": "^4.4.1",
+    "@vue/cli-service": "^4.4.1",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.4.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
