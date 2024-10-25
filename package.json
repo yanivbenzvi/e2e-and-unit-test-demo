@@ -17,7 +17,7 @@
     "cypress": "^4.7.0",
     "material-design-icons-iconfont": "^5.0.1",
     "mocha": "^6.2.3",
-    "vue": "^2.6.11",
+    "vue": "^3.0.0",
     "vuetify": "^2.2.30"
   },
   "devDependencies": {
